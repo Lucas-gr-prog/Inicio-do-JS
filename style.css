@@ -30,8 +30,14 @@ header {
     font-size: 16px;
 }
 
-input {
+input, button {
     width: 95%;
     height: 32px;
     margin: 16px;
+    padding-left: 6px;
+}
+
+button {
+    font-size: 20px;
+    font-family: "Times New Roman";
 }
