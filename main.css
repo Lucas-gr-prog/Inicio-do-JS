@@ -46,7 +46,30 @@ button {
     text-align: center;
     background-color: rgba(255, 0, 0, 0.904);
     margin:0 32px;
+    padding: 6px;
+    color: white;
     font-size: 18px;
     border-radius: 4px;
     display: none;
+    font-family: sans-serif;
+}
+
+.sucesso {
+    text-align: center;
+    background-color: green;
+    margin:0 32px;
+    padding: 6px;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    display: none;
+    font-family: sans-serif;
+}
+
+.correto {
+    display: none;
+}
+
+.errado {
+    display: block;
 }
