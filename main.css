@@ -66,10 +66,10 @@ button {
     font-family: sans-serif;
 }
 
-.correto {
+.nada {
     display: none;
 }
 
-.errado {
+.tudo {
     display: block;
 }

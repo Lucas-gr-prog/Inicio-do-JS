@@ -9,17 +9,15 @@ form.addEventListener('submit', validacao)
 function validacao (evento){
     evento.preventDefault()
     if (campo1.value > campo2.value) {
-        alert('Deu Bom')
-        erro.classList.add('correto')
-        erro.classList.remove('errado')
-        certo.classList.add('errado')
-        certo.classList.remove('correto')
+        erro.classList.add('nada')
+        erro.classList.remove('tudo')
+        certo.classList.add('tudo')
+        certo.classList.remove('nada')
     }
     else{
-        alert('Deu ruim')
-        erro.classList.add('errado')
-        erro.classList.remove('correto')
-        certo.classList.add('correto')
-        certo.classList.remove('errado')
+        erro.classList.add('tudo')
+        erro.classList.remove('nada')
+        certo.classList.add('nada')
+        certo.classList.remove('tudo')
     }
 }
